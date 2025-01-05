@@ -173,6 +173,8 @@ Libft is one of the foundational projects for C in the 42 curriculum, and the go
 	- Counts the number of nodes in the link list lst.
 	- Returns: int number of nodes in the linked list.
 
+</details>
+
 ## Installation
 clone the project
 ```bash
