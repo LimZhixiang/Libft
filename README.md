@@ -137,7 +137,7 @@ Libft is one of the foundational projects for C in the 42 curriculum, and the go
 </details>
 
 <details id="int-to-string-function">
-	<summary style="font-size: 20px; font-weight:bold;">FInt to String Function</summary>
+	<summary style="font-size: 20px; font-weight:bold;">Int to String Function</summary>
 
 - `ft_itoa(int n)`
 	- Converts a integer to a string.
