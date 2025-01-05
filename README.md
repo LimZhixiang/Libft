@@ -8,7 +8,7 @@ A foundational 42 project to create a custom C library, replicating standard lib
 2. [Functions Overview](#functions-overview)
 	- [Character Manipulation Functions](#character-manipulation-functions)
 	- [String Manipulation Functions](#string-manipulation-functions)
-	- [Memory Manipulation Functions](#Memory-Manipulation-Functions)
+	- [Memory Manipulation Functions](#memory-manipulation-functions)
 	- [File Descriptor Functions](#file-descriptor-functions)
 	- [Int to string Function](#int-to-string-function)
 3. [Bonus Functions](#bonus-functions)
@@ -23,8 +23,9 @@ Libft is one of the foundational projects for C in the 42 curriculum, and the go
 <img src="https://skillicons.dev/icons?i=c">
 
 ## Functions Overview
+<details id="character-manipulation-functions">
+	<summary style="font-size: 20px; font-weight:bold;">Character Manipulation Functions</summary>
 
-### Character manipulation Functions 
 - `ft_isalnum(int c)`
 	- Checks for an alphanumeric character.
 	- Return: `1` is true, `0` is false.
@@ -45,7 +46,11 @@ Libft is one of the foundational projects for C in the 42 curriculum, and the go
 - `ft_tolower(int c)`
 	- Returns: Lowercase equivalent of c if it's lowercase, otherwise returns c.
 
-### String manipulation Functions
+</details>
+
+<details id="string-manipulation-functions">
+	<summary style="font-size: 20px; font-weight:bold;">String Manipulation Functions</summary>
+
 - `ft_split(char const *s, char c)`
 	- Returns an array of strings obtained by splitting s using the character c as a delimiter.
 	- Returns: `NULL` is memory allocation fails; otherwise a `NULL` terminated array.
@@ -91,7 +96,11 @@ Libft is one of the foundational projects for C in the 42 curriculum, and the go
 	- Converts a string to an integer
 	- Returns: The converted value as int.
 
-### Memory Manipulation Functions
+</details>
+
+<details id="memory-manipulation-functions">
+	<summary style="font-size: 20px; font-weight:bold;">Memory Manipulation Functions</summary>
+
 - `ft_bzero(void *s, size_t n)`
 	- Erases data in the n bytes of a memory starting at the location pointed to by s, by writing '\0' to the area.
 - `ft_calloc(size_t nmemb, size_t size)`
@@ -112,7 +121,11 @@ Libft is one of the foundational projects for C in the 42 curriculum, and the go
 - `ft_memset(void *s, int c, size_t n)`
 	- Fills up first n bytes of memory s with a constant byte c.
 
-### File Descriptor Functions
+</details>
+
+<details id="file-descriptor-functions">
+	<summary style="font-size: 20px; font-weight:bold;">File Descriptor Functions</summary>
+
 - `ft_putchar_fd(char c, int fd)`
 	- Outputs the character c to the given file descriptor.
 - `ft_putendl_fd(char *s, int fd)`
@@ -121,15 +134,22 @@ Libft is one of the foundational projects for C in the 42 curriculum, and the go
 	- Outputs the int n to the given file descriptor.
 - `ft_putstr_fd(char *s, int fd)`
 	- Outputs the string s to the given file descriptor.
+</details>
 
-### Int to string Function
+<details id="int-to-string-function">
+	<summary style="font-size: 20px; font-weight:bold;">FInt to String Function</summary>
+
 - `ft_itoa(int n)`
 	- Converts a integer to a string.
 	- Returns: `NULL` if memory allocation fails; otherwise pointer to converted string.
 
+</details>
+
 ## Bonus Functions
 
-### Linked List Manipulation Functions
+<details id="linked-list-manipulation-functions">
+	<summary style="font-size: 20px; font-weight:bold;">linked list manipulation functions</summary>
+
 - `ft_lstadd_back(t_list **lst, t_list *new)`
 	- Adds a new node (new) to the back of the lst, if lst is empty then new will be the head in lst.
 - `ft_lstadd_front(t_list **lst, t_list *new)`
