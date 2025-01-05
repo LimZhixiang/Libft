@@ -148,7 +148,7 @@ Libft is one of the foundational projects for C in the 42 curriculum, and the go
 ## Bonus Functions
 
 <details id="linked-list-manipulation-functions">
-	<summary style="font-size: 20px; font-weight:bold;">linked list manipulation functions</summary>
+	<summary style="font-size: 20px; font-weight:bold;">Linked List Manipulation Functions</summary>
 
 - `ft_lstadd_back(t_list **lst, t_list *new)`
 	- Adds a new node (new) to the back of the lst, if lst is empty then new will be the head in lst.
