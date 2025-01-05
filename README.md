@@ -166,6 +166,10 @@ Compile the project
 ```bash
 make
 ```
+Compile the bonus files
+```bash
+make bonus
+```
 - this will generate the libft.a file in the project directory
 
 ## Usage
